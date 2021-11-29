@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Nov 28 20:41:52 2021
-
-@author: graciellafavoreto
-"""
-
 import time
 import sys
 import os
