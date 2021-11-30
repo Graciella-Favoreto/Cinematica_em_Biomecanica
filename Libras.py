@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Nov 28 20:41:52 2021
+
+@author: graciellafavoreto
+"""
+
 import time
 import sys
 import os
@@ -47,7 +54,7 @@ tamanho_fonte, tamanho_linha, tamanho_circulo, espessura = 1, 1, 4, 2
 fonte = cv2.FONT_HERSHEY_SIMPLEX
 
 #carregando um video
-video = "C:\\Users\\graciellafavoreto\\Desktop\\Reconhecimento de Gestos\\imagens\\imagens\\hand\\letraA.mp4"
+video = "C:\\Users\\graciellafavoreto\\Desktop\\Reconhecimento de Gestos\\imagens\\imagens\\hand\\graciella_edit.mp4"
 captura = cv2.VideoCapture(video)
 ret, frame = captura.read()
 ret
@@ -156,7 +163,7 @@ while (cv2.waitKey(1) < 0):
                         cor_txtinicial, tamanho_fonte,
                         lineType=cv2.LINE_AA)
         else:
-            cv2.putText(frame, 'Analisando', (250, 50), fonte, 1, 
+            cv2.putText(frame, 'Processando...', (250, 50), fonte, 1, 
                         cor_txtandamento, tamanho_fonte,
                         lineType=cv2.LINE_AA)
     
