@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Nov 28 20:41:52 2021
-
-@author: graciellafavoreto
-"""
-
 import time
 import sys
 import os
@@ -25,13 +18,6 @@ import extrator_POSICAO as posicao
 import extrator_ALTURA as altura
 import extrator_PROXIMIDADE as proximidade
 import alfabeto
-
-
-#import extrator_POSICAO as posicao 
-#posicao = "C:\\Users\\graciellafavoreto\\Desktop\\Reconhecimento de Gestos\\modulos\\modulos\\extrator_POSICAO.py"
-#altura = "C:\\Users\\graciellafavoreto\\Desktop\\Reconhecimento de Gestos\\modulos\\modulos\\extrator_ALTURA.py"
-#proximidade = "C:\\Users\\graciellafavoreto\\Desktop\\Reconhecimento de Gestos\\modulos\\modulos\\extrator_PROXIMIDADE.py"
-#alfabeto = "C:\\Users\\graciellafavoreto\\Desktop\\Reconhecimento de Gestos\\modulos\\modulos\\alfabeto.py"
 
 #Carregando o modelo e estruturas da rede neural pré-treinada
 arquivo_proto = "C:\\Users\\graciellafavoreto\\Desktop\\Reconhecimento de Gestos\\pose\\pose\\hand\\pose_deploy.prototxt"
@@ -63,17 +49,10 @@ imagem_largura = frame.shape[1]
 imagem_altura = frame.shape[0]
 proporcao = imagem_largura / imagem_altura
 
-#print (imagem_largura, imagem_altura, proporcao)
-
 #Definir as dimensões da imagem de entrada.
 entrada_altura = 368
 entrada_largura = int(((proporcao * entrada_altura) * 8) // 8)
 #print (entrada_largura, entrada_altura)
-
-#Criando a variável para salvar os resultados no Drive
-resultado = './libras.avi'
-gravar_video = cv2.VideoWriter(resultado, cv2.VideoWriter_fourcc(*'XVID'), 10,
-                              (frame.shape[1], frame.shape[0]))
 
 #Lendo o modelo carregado na linha 25 adiante
 modelo = cv2.dnn.readNetFromCaffe(arquivo_proto, arquivo_pesos)
