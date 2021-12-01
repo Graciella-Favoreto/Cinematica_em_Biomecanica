@@ -17,9 +17,9 @@ A saída, logo, possui 22 matrizes sendo que cada uma irá representar a probabi
 As letras H, J, K, X, Y e Z exigem movimentação, necessário fazer comparação de movimento de transição entre os pontos
 
 
-https://user-images.githubusercontent.com/68204317/144101391-1ee5fba0-b989-4f04-aee6-c2882e9a48f5.mp4
+
+https://user-images.githubusercontent.com/68204317/144264747-94be5b5d-be62-472e-9a83-a4bcb2847091.mp4
 
 
-https://user-images.githubusercontent.com/68204317/144108555-135cf7ee-2fd1-4292-85a8-5863e53b57be.mp4
 
 
