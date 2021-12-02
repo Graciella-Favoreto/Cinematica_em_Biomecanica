@@ -12,7 +12,8 @@ Utilização de rede neural pré treinada para fazer a detecção dos pontos cha
 
 A saída, logo, possui 22 matrizes sendo que cada uma irá representar a probabilidade (mapa de confiança) de cada ponto chave.
 
-![pontos_chaves_mão](https://user-images.githubusercontent.com/68204317/144255845-25ca9700-2441-440b-9caa-967adc8a32c8.PNG)
+![pontos_chaves_mão](https://user-images.githubusercontent.com/68204317/144450651-d175f3af-3ccb-4e46-bca6-b62361f8d1d8.PNG)
+
 
 As letras H, J, K, X, Y e Z exigem movimentação, necessário fazer comparação de movimento de transição entre os pontos
 
@@ -20,6 +21,8 @@ As letras H, J, K, X, Y e Z exigem movimentação, necessário fazer comparaçã
 
 https://user-images.githubusercontent.com/68204317/144264747-94be5b5d-be62-472e-9a83-a4bcb2847091.mp4
 
+
+https://user-images.githubusercontent.com/68204317/144452268-95844c1c-7809-4222-a982-ca39180ec2c7.mp4
 
 
 
