@@ -1,3 +1,5 @@
+Arquivos grandes que não couberam aqui, estão no google drive. Podem ser acessador pelo link: https://drive.google.com/drive/folders/1zX9UxZUPUg13bkWnLtGYmX8NgZuaiWCX?usp=sharing
+
 # Cinematica_em_Biomecanica
 
 Dificuldades e limitações
